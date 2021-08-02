@@ -1,12 +1,14 @@
 def parse(x):
 
-    roman_numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"]
-    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,]
+    roman_numerals = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", 'IX', 'X', 'XI', 'XIV', 'XIX', "XX", 'XXXIV', 'XLI', "L", "XCIX", 'C', "CCCXXXIII", "DLV", "CDXLIX", "MCMLXXII"]
+    numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 14, 19, 20, 34, 41, 50, 99, 100, 333, 555, 449, 1972]
     zipped = zip(roman_numerals, numbers)
 
     for item in zipped:
         if item[0] == x:
             return item[1]
+
+
 
 
 
