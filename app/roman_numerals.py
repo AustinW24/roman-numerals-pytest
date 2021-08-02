@@ -1,2 +1,5 @@
-def parse (x): 
-    return 1 
+def parse(x):
+   if x == 'I':
+        return 1
+   elif x == 'II':
+        return 2
