@@ -7,3 +7,6 @@ def parse(x):
         return 3
     elif x == "IV":
         return 4
+    elif x == 'V':
+        return 5
+    
