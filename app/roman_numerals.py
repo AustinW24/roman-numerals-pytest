@@ -3,6 +3,7 @@ def parse(x):
         return 1
     elif x == 'II':
         return 2
-    elif x == "III": 
+    elif x == "III":
         return 3
-    
+    elif x == "IV":
+        return 4
