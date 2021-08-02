@@ -31,3 +31,8 @@ class TestRomanNumerals(unittest.TestCase):
         value = parse('VI')
 
         self.assertEqual(value, 6)
+
+    def test_vii(self):
+        value = parse('VII')
+
+        self.assertEqual(value, 7)

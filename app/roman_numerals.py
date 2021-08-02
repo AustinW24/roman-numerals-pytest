@@ -9,4 +9,5 @@ def parse(x):
         return 4
     elif x == 'V':
         return 5
-    
+    elif x == "VI":
+        return 6
