@@ -1,5 +1,5 @@
 import unittest
-from  app.roman_numerals import parse
+from app.roman_numerals import parse
 
 class TestRomanNumerals(unittest.TestCase):
     def test_i(self):
@@ -16,3 +16,8 @@ class TestRomanNumerals(unittest.TestCase):
         value = parse('III')
 
         self.assertEqual(value, 3)
+
+    def test_iv(self):
+        value = parse('IV')
+
+        self.assertEqual(value, 4)
